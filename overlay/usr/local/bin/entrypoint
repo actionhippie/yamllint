@@ -1,0 +1,39 @@
+#!/usr/bin/env bash
+set -eo pipefail
+
+EXIT_CODE=0
+pushd "${GITHUB_WORKSPACE}" >/dev/null
+    ARGS=()
+
+    if [[ -n "${INPUT_CONFIG}" ]]; then
+        ARGS+=(--config-file "${INPUT_CONFIG}")
+    fi
+
+    if [[ -n "${INPUT_FORMAT}" ]]; then
+        ARGS+=(--format "${INPUT_FORMAT}")
+    fi
+
+    if [[ "${INPUT_WARNINGS}" == "false" || "${INPUT_WARNINGS}" == "0" ]]; then
+        ARGS+=(--no-warnings)
+    fi
+
+    if [[ "${INPUT_STRICT}" == "true" || "${INPUT_STRICT}" == "1" ]]; then
+        ARGS+=(--strict)
+    fi
+
+    if [[ -n "${INPUT_PATH}" ]]; then
+        ARGS+=("${INPUT_PATH}")
+    fi
+
+    set +e
+    OUTPUT=$(yamllint "${ARGS[@]}")
+    EXIT_CODE=${?}
+    set -e
+
+    echo "::set-output name=messages::${OUTPUT}"
+
+    if [[ "${INPUT_PRINT}" == "true" || "${INPUT_PRINT}" == "1" ]]; then
+        echo "${OUTPUT}"
+    fi
+popd >/dev/null
+exit ${EXIT_CODE}

@@ -1,0 +1,50 @@
+---
+name: 'yamllint'
+description: 'Validate and lint YAML files'
+author: 'actionhippie'
+
+inputs:
+  config:
+    description: |
+      Path to custom configuration file
+    required: false
+
+  format:
+    description: |
+      Output formatter, defaults to `parsable`
+    required: false
+    default: "parsable"
+
+  warnings:
+    description: |
+      Enable warning message output
+    required: false
+    default: "true"
+
+  strict:
+    description: |
+      Return non-zero exit code on warnings
+    required: false
+    default: "false"
+
+  path:
+    description: |
+      Path to check, defaults to `.`
+    required: false
+    default: "."
+
+  print:
+    description: |
+      Print messages directly, defaults to `true`
+    required: false
+    default: "true"
+
+outputs:
+  messages:
+    description: Generated validation/linting messages
+
+runs:
+  using: 'docker'
+  image: 'docker://ghcr.io/actionhippie/yamllint:v1'
+
+...
