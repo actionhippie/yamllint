@@ -30,7 +30,7 @@ pushd "${GITHUB_WORKSPACE}" >/dev/null
     EXIT_CODE=${?}
     set -e
 
-    echo "messages=${OUTPUT}" >> ${GITHUB_STATE}
+    echo "messages=${OUTPUT}" >> ${GITHUB_OUTPUT}
 
     if [[ "${INPUT_PRINT}" == "true" || "${INPUT_PRINT}" == "1" ]]; then
         echo "${OUTPUT}"
