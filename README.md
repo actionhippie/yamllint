@@ -1,6 +1,6 @@
 # yamllint
 
-[![Current Tag](https://img.shields.io/github/v/tag/actionhippie/yamllint?sort=semver)](https://github.com/actionhippie/yamllint) [![Docker Build](https://github.com/actionhippie/yamllint/workflows/docker/badge.svg)](https://github.com/actionhippie/yamllint/actions?query=workflow%3Adocker)
+[![Current Tag](https://img.shields.io/github/v/tag/actionhippie/yamllint?sort=semver)](https://github.com/actionhippie/yamllint) [![Docker Build](https://github.com/actionhippie/yamllint/workflows/docker/badge.svg)](https://github.com/actionhippie/yamllint/actions/workflows/docker.yml)
 
 [GitHub Action](https://github.com/features/actions) to validate/lint YAML files.
 
