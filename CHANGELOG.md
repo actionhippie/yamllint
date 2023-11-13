@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/actionhippie/yamllint/compare/v1.0.0...v1.1.0) (2023-11-13)
+
+
+### Features
+
+* **deps:** update dependency yamllint to v1.33.0 ([01b3abc](https://github.com/actionhippie/yamllint/commit/01b3abc002d3658eda3b6ff0e799aa04a7d818ec))
+
 ## 1.0.0 (2023-05-11)
 
 
