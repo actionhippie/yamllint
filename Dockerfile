@@ -1,4 +1,4 @@
-FROM alpine:3.18
+FROM alpine:3.19
 
 # renovate: datasource=pypi depName=yamllint
 ENV YAMLLINT_VERSION=1.33.0
