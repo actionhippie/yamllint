@@ -4,7 +4,7 @@ FROM alpine:3.19
 ENV YAMLLINT_VERSION=1.33.0
 
 RUN apk add --no-cache bash python3 python3-dev py3-pip && \
-    pip3 install -U yamllint==${YAMLLINT_VERSION} && \
+    pip3 install --break-system-packages -U yamllint==${YAMLLINT_VERSION} && \
     rm -rf /root/.cache
 
 ENTRYPOINT ["/usr/local/bin/entrypoint"]
