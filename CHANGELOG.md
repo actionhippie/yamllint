@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://github.com/actionhippie/yamllint/compare/v1.1.0...v1.2.0) (2023-12-18)
+
+
+### Features
+
+* **deps:** update alpine docker tag to v3.19 ([885b50a](https://github.com/actionhippie/yamllint/commit/885b50a8d0738a55c1281bac523ac03a4c8f0d6a))
+
+
+### Bugfixes
+
+* force install via pip ([e99b6dd](https://github.com/actionhippie/yamllint/commit/e99b6dd7953c3cc4db9b972f205f90714bb316a5))
+
 ## [1.1.0](https://github.com/actionhippie/yamllint/compare/v1.0.0...v1.1.0) (2023-11-13)
 
 
