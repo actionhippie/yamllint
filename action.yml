@@ -45,6 +45,6 @@ outputs:
 
 runs:
   using: 'docker'
-  image: 'docker://ghcr.io/actionhippie/yamllint:v1.3.0'
+  image: 'docker://ghcr.io/actionhippie/yamllint:v1.4.0'
 
 ...
