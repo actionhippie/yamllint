@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/actionhippie/yamllint/compare/v1.4.0...v1.5.0) (2024-05-27)
+
+
+### Features
+
+* **deps:** update alpine docker tag to v3.20 ([99cedce](https://github.com/actionhippie/yamllint/commit/99cedce12e38f1dde0c23c7e50a7507e32b651ca))
+
 ## [1.4.0](https://github.com/actionhippie/yamllint/compare/v1.3.0...v1.4.0) (2024-02-19)
 
 
