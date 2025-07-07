@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.7.0](https://github.com/actionhippie/yamllint/compare/v1.6.0...v1.7.0) (2025-07-07)
+
+
+### Features
+
+* **deps:** update alpine docker tag to v3.22 ([#35](https://github.com/actionhippie/yamllint/issues/35)) ([6dc8634](https://github.com/actionhippie/yamllint/commit/6dc863450f29650a375e0be02eb63cae2643bc5f))
+* **deps:** update dependency yamllint to v1.36.0 ([#30](https://github.com/actionhippie/yamllint/issues/30)) ([c9bae04](https://github.com/actionhippie/yamllint/commit/c9bae04a0d224094ca30175f0ceab66538c724f0))
+* **deps:** update dependency yamllint to v1.37.0 ([#33](https://github.com/actionhippie/yamllint/issues/33)) ([e000e00](https://github.com/actionhippie/yamllint/commit/e000e008417c052fb771eab82476c6ab85806634))
+* replace release workflow and add workflow langserver ref ([1bdd965](https://github.com/actionhippie/yamllint/commit/1bdd965096938900e81515cee9398ced76ad6d49))
+
+
+### Bugfixes
+
+* **deps:** update dependency yamllint to v1.36.1 ([#31](https://github.com/actionhippie/yamllint/issues/31)) ([cd0bc6f](https://github.com/actionhippie/yamllint/commit/cd0bc6f0eb19e2a8a1408b7dfeafe623de73d04b))
+* **deps:** update dependency yamllint to v1.36.2 ([#32](https://github.com/actionhippie/yamllint/issues/32)) ([5e49968](https://github.com/actionhippie/yamllint/commit/5e49968420d738c91d4d64da160b5457b93e00fd))
+* **deps:** update dependency yamllint to v1.37.1 ([#34](https://github.com/actionhippie/yamllint/issues/34)) ([01fc310](https://github.com/actionhippie/yamllint/commit/01fc31018c7f50f0dd2827372c406edcf009b3e4))
+
 ## [1.6.0](https://github.com/actionhippie/yamllint/compare/v1.5.0...v1.6.0) (2024-12-09)
 
 
