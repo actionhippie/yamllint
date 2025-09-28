@@ -1,7 +1,11 @@
 ---
+# yaml-language-server: $schema=https://www.schemastore.org/github-action.json
 name: 'yamllint'
 description: 'Validate and lint YAML files'
 author: 'actionhippie'
+branding:
+  icon: check
+  color: green
 
 inputs:
   config:
