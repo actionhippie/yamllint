@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.1](https://github.com/actionhippie/yamllint/compare/v1.7.0...v1.7.1) (2025-09-29)
+
+
+### Bugfixes
+
+* **deps:** pin alpine docker tag to 4bcff63 ([#38](https://github.com/actionhippie/yamllint/issues/38)) ([fe67842](https://github.com/actionhippie/yamllint/commit/fe67842b739e289dd74f110c2e0e00418143c770))
+
 ## [1.7.0](https://github.com/actionhippie/yamllint/compare/v1.6.0...v1.7.0) (2025-07-07)
 
 
