@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.10.1](https://github.com/actionhippie/yamllint/compare/v1.10.0...v1.10.1) (2026-01-19)
+
+### Bugfixes
+
+* resolve missing quote in action config ([bb66cc5](https://github.com/actionhippie/yamllint/commit/bb66cc57beae7fc31e97e9738136381ff1848b0f))
+
 ## [1.10.0](https://github.com/actionhippie/yamllint/compare/v1.9.1...v1.10.0) (2026-01-19)
 
 ## [1.9.1](https://github.com/actionhippie/yamllint/compare/v1.9.0...v1.9.1) (2025-12-22)
