@@ -102,8 +102,8 @@
                         "files": [
                             "action.yml"
                         ],
-                        "from": "docker://ghcr.io/actionhippie/yamllint:.*",
-                        "to": "docker://ghcr.io/actionhippie/yamllint:${nextRelease.version}",
+                        "from": "'docker://ghcr.io/actionhippie/yamllint:.*'",
+                        "to": "'docker://ghcr.io/actionhippie/yamllint:${nextRelease.version}'",
                         "results": [
                             {
                                 "file": "action.yml",
