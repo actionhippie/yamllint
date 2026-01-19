@@ -1,5 +1,7 @@
 # Changelog
 
+## [1.10.0](https://github.com/actionhippie/yamllint/compare/v1.9.1...v1.10.0) (2026-01-19)
+
 ## [1.9.1](https://github.com/actionhippie/yamllint/compare/v1.9.0...v1.9.1) (2025-12-22)
 
 ## [1.9.0](https://github.com/actionhippie/yamllint/compare/v1.8.0...v1.9.0) (2025-12-08)
