@@ -1,5 +1,25 @@
 # Changelog
 
+## [1.10.4](https://github.com/actionhippie/yamllint/compare/v1.10.3...v1.10.4) (2026-04-20)
+
+### Dependencies
+
+* **patch:** update alpine:3.23 docker digest to 5b10f43 ([#71](https://github.com/actionhippie/yamllint/issues/71)) ([e4d0295](https://github.com/actionhippie/yamllint/commit/e4d0295ae0f3bad22945569346e5a2addbc6db49))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([624419c](https://github.com/actionhippie/yamllint/commit/624419cc314b9e1353cb40ead1d4d46fa5b3347b))
+* **flake:** updated lockfile [skip ci] ([2de67d1](https://github.com/actionhippie/yamllint/commit/2de67d1238c58030c95b7e13472fa3318ac8871a))
+* **flake:** updated lockfile [skip ci] ([bc26b92](https://github.com/actionhippie/yamllint/commit/bc26b928310106dcc26c40b9f05a6d16c4a3b3aa))
+* **flake:** updated lockfile [skip ci] ([39d1f33](https://github.com/actionhippie/yamllint/commit/39d1f33c7d35f5b9810f8929e536a9d18d6eb76d))
+* **flake:** updated lockfile [skip ci] ([68e5cd4](https://github.com/actionhippie/yamllint/commit/68e5cd4ab21c816cf47b0e2abae2efd0e10d0a2b))
+* **flake:** updated lockfile [skip ci] ([ee6c5cd](https://github.com/actionhippie/yamllint/commit/ee6c5cdb3f7c3e4c977be72d8d66e045c9f91055))
+* **flake:** updated lockfile [skip ci] ([108c86c](https://github.com/actionhippie/yamllint/commit/108c86cc69f2ad09b2a12697e4f612a7ca591add))
+* **flake:** updated lockfile [skip ci] ([13b7055](https://github.com/actionhippie/yamllint/commit/13b70559e9f4710857a4362e3ab9170907708fdf))
+* **flake:** updated lockfile [skip ci] ([0b17fd9](https://github.com/actionhippie/yamllint/commit/0b17fd9d1de83e68722668129537f40dd4c6ed3d))
+* **flake:** updated lockfile [skip ci] ([ca8a5e9](https://github.com/actionhippie/yamllint/commit/ca8a5e949875268d2626ae68fa2c18f8230d6775))
+* **flake:** updated lockfile [skip ci] ([0f6ffb5](https://github.com/actionhippie/yamllint/commit/0f6ffb52d52183f35c5254729ff38afc742d6db0))
+
 ## [1.10.3](https://github.com/actionhippie/yamllint/compare/v1.10.2...v1.10.3) (2026-02-02)
 
 ### Dependencies
