@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.11.0](https://github.com/actionhippie/yamllint/compare/v1.10.4...v1.11.0) (2026-06-15)
+
+### Dependencies
+
+* **minor:** update alpine docker tag to v3.24 ([#72](https://github.com/actionhippie/yamllint/issues/72)) ([4bbbfc5](https://github.com/actionhippie/yamllint/commit/4bbbfc59f83d16b13ec89b69fe67e26836e21956))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([e8bd049](https://github.com/actionhippie/yamllint/commit/e8bd049c8d48c841e82148e7c591579d11bba9de))
+* **flake:** updated lockfile [skip ci] ([3ac2905](https://github.com/actionhippie/yamllint/commit/3ac2905cddfdcbfecb238a619b8a952ab3014def))
+* **flake:** updated lockfile [skip ci] ([a66e766](https://github.com/actionhippie/yamllint/commit/a66e766d1ef74ef29dd8f7b7c1ad67d918141d92))
+* **flake:** updated lockfile [skip ci] ([ca4355c](https://github.com/actionhippie/yamllint/commit/ca4355c654f93113d9c4f4db182fc1a70eea076f))
+* **flake:** updated lockfile [skip ci] ([dcb8fc3](https://github.com/actionhippie/yamllint/commit/dcb8fc35a2aa4906725d58d8de16001d12c8c151))
+* **flake:** updated lockfile [skip ci] ([33bbf2d](https://github.com/actionhippie/yamllint/commit/33bbf2d31a86914e8bbcfc35348fa912b956f75f))
+* **flake:** updated lockfile [skip ci] ([fa7392c](https://github.com/actionhippie/yamllint/commit/fa7392c841866e545569f1d28281622f7f6f8116))
+* **flake:** updated lockfile [skip ci] ([9f1ba2d](https://github.com/actionhippie/yamllint/commit/9f1ba2d119bfe8b259b0ceedab8532f7eca4afee))
+
 ## [1.10.4](https://github.com/actionhippie/yamllint/compare/v1.10.3...v1.10.4) (2026-04-20)
 
 ### Dependencies
