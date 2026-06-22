@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.11.1](https://github.com/actionhippie/yamllint/compare/v1.11.0...v1.11.1) (2026-06-22)
+
+### Dependencies
+
+* **patch:** update docker digests ([#73](https://github.com/actionhippie/yamllint/issues/73)) ([428e463](https://github.com/actionhippie/yamllint/commit/428e463cb7717672758a658e7512891589941d00))
+* **patch:** update docker digests ([#74](https://github.com/actionhippie/yamllint/issues/74)) ([8d85787](https://github.com/actionhippie/yamllint/commit/8d857876552bb38d9f8f79bb9ebfe354680e8dd5))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([ca13bb0](https://github.com/actionhippie/yamllint/commit/ca13bb0acb2b795d19e8aa221edccc4bb800c87f))
+
 ## [1.11.0](https://github.com/actionhippie/yamllint/compare/v1.10.4...v1.11.0) (2026-06-15)
 
 ### Dependencies
